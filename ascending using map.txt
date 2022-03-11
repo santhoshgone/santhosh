@@ -1,0 +1,10 @@
+let arr = [45,35,65,74,35,89,54];
+arr.map((x,y,z)=>{
+    var temp =[];
+    if(z[y]>z[y+1]){
+        temp= z[y];
+        z[y]= z[y+1];
+        z[y+1] = temp;
+    }
+    return x;
+});

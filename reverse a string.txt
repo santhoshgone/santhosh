@@ -1,0 +1,5 @@
+let s = 'santhosh';
+let f = s.split('');
+let g = f.reverse();
+let v = g.join('');
+console.log(v);

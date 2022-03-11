@@ -1,0 +1,9 @@
+let g = {
+    name1 :'santhu',
+    age1: 22
+}
+let g1= {
+    name2:'prashanth',
+    age2:21
+}
+let r = Object.assign(g,g1);

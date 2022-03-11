@@ -1,0 +1,14 @@
+let f =new Array(10);
+    f.fill(1).map((x,y,z)=>
+        {
+    if(y==0){
+        z[y]=0;
+    }
+    else if(y==1){
+        z[y]=1;
+    }
+    else {
+        z[y]=z[y-2]+z[y-1];
+    }
+    return z[y];
+});
